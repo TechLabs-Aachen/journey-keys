@@ -33,8 +33,8 @@ For our test to work, you must assign some attributes to the HTML elements!
 - The input field to enter a new todo should have the attribute `data-testid="eval-input-field"`
 - The button to add a new todo should have the attribute `data-testid="eval-add-todo-button"`
 - The Button to remove a todo should have the attribute
-`data-testid="eval-item-done-<TODO>"` where `TODO` is the actual text used in
-the todo
+`data-testid="eval-item-done-<TODO>"` where `<TODO>` is the actual text used in
+the todo (without the `<>`)
 - you should keep the element where you display your email. We need it to generate your key!
  
 
