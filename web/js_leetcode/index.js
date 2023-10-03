@@ -13,7 +13,7 @@ function filter(arr, filter_out) {
 };
 
 /**
-  * Swap the key and value of an object. E.g. {a: 1, b: 2} => {1: 'a', 2: 'b'}
+  * Swap the key and value of an object. E.g. {"a":"z", "b": "y"} => {"y": "a", "y": 'b'}
   * Only flat object are given (no nested object)
   * @param {Object} obj
   * @return {Object}
