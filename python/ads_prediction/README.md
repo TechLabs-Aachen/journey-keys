@@ -12,10 +12,10 @@ Your data is split into two files (please do not rename them)
 The `task.py` file contains three functions to be implemented:
 - `transform()` perform any data transformation you want here, The function
 should return the transformed data.
-- `train()` perform any training you want here, you should also load the data
-in here. The function should return the trained model.
+- `train()` perform any training you want here. The data will be pre-transformed by the `transform` function you implemented.
+This function should return the trained model.
 - `predict(model, sample)` perform a single prediction on a sample. We will
-invoke this function given the model you return from `train()`.
+invoke this function given the model you return from `train()` and the test dataframe.
 
 NOTE: Our solution checks requires `sklearn` and `pandas` to be installed.
 
