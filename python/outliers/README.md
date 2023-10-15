@@ -23,7 +23,7 @@ For this exercise, we will need
 - sklearn
 
 > Bonus Question: Was this (removing potential bad outliers) a good way to
-> improve the regression model performance in general? Why? Why not?
+> improve regression model performance in general? Why? Why not?
 
 
 **As always, if you struggle with the problem, ask for help in Slack or join one of our 
