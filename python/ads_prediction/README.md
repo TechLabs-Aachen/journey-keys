@@ -23,5 +23,11 @@ NOTE: Our solution checks requires `sklearn` and `pandas` to be installed.
 > false negatives! You will pass if the number of false positives and false
 > negatives is below some threshold on the test dataset.
 
+> Question: Many classifiers are initialized with some random state. Because of this, 
+> the same classifier can give different results/performance on different runs.
+> Thus, some models may sometimes pass and sometimes fail our tests. This is
+> a practical problem in real world ML/Data Science applications. How would you
+> mitigate this problem?
+
 **As always, if you struggle with the problem, ask for help in Slack or join one of our 
 co-working sessions throughout the track phase!**
