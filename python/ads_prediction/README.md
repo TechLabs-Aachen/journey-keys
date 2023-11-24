@@ -16,6 +16,8 @@ should return the transformed data.
 This function should return the trained model.
 - `predict(model, sample)` perform a single prediction on a sample. We will
 invoke this function given the model you return from `train()` and the test dataframe.
+- `validate_help()` extracts labels from your dataset, depending on your `transform` function
+you may want to change this function to extract a 1d flat array of labels from a dataset.
 
 NOTE: Our solution checks requires `sklearn` and `pandas` to be installed.
 
